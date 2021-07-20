@@ -1,0 +1,64 @@
+@charset "UTF-8";
+ 
+:root{
+    --cor1: #260049a6;
+    --cor2: #6c07af;
+    --cor3: #b729db;
+    --cor4: #2971DB;
+}
+
+*{
+    margin-top: 80px;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(img/GTA-5-city-at-night-purple-style-skyscrapers_1366x768.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+main{
+
+    margin-top: 50px;
+    margin: auto;
+    min-width: 300px;
+    max-width: 400px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.671);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(50, 0, 59);
+}
+img{
+    padding: 30px;
+    display: block;
+    margin: auto;
+    width: 200px;
+}
+p{
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+input{
+    background-color: var(--cor3);
+    border: none;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    color: white;
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+}
+input:hover{
+    background-color: var(--cor2);
+
+}
+div{
+    background-color: var(--cor2);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px var(--cor1);
+}
